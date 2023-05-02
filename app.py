@@ -4,7 +4,6 @@ from scr.routes import Exchange
 
 app = Flask(__name__)
 
-
 def pagina_no_encontrada(error):
     # return "<h1>La página que intentas buscar no existe...</h1>"
     return render_template('index.html')
